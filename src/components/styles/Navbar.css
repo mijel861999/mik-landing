@@ -35,25 +35,17 @@ section.Logo__section{
     justify-content: flex-end;
 }
 
-.Navigation__section a{
-    padding-right: 30px;
-    color: black;
-    font-weight: 500;
+/* Media queries*/
+@media screen and (max-width : 768px){
+    .Navigation__section{
+        padding: 20px 20px;
+        display: flex !important;
+        justify-content: center !important;
+        background-color:#012326;
+    }
+
 }
 
-.Navigation__section a:hover{
-    text-decoration: none;
-    color: #A66038;
-}
+@media screen and (max-width : 540px){
 
-
-.Navigation__section .btn{
-    padding: 3px 25px;
-    border: 2px solid black;
-    background: #D9A84E;
-    border-radius: 6px;
-}
-
-.Navigation__section .btn a{
-    padding-right: 7px;
 }
