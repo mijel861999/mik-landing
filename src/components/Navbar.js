@@ -19,7 +19,9 @@ class Navbar extends React.Component{
                     <section className="row">
                             <section className="Logo__section col-sm-12 col-md-1 align-items-center pt-3">
                                 <div className = "Logo__container">
-                                    <img src={canguro} alt=""/>
+                                    <Link to="/">
+                                        <img src={canguro} alt=""/>
+                                    </Link>
                                 </div>
                                 <p>MIK</p>    
                             </section>

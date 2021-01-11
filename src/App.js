@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch} from 'react-router-dom';
 //Pages
 import Landing from './pages/Landing';
 import Dev from './pages/Dev';
+import Music from './pages/Music';
 
 //Components
 import Navbar from './components/Navbar';
@@ -18,6 +19,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Landing}/>
           <Route exact path="/dev" component={Dev}/>
+          <Route exact path="/music" component={Music}/>
         </Switch>
       <Footer/>
     </BrowserRouter>

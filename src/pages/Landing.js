@@ -14,7 +14,7 @@ class Landing extends React.Component{
             <React.Fragment>
                 <section className="music-section">
                     <div className="landing-image-container">
-                        <Link>
+                        <Link to="/music">
                             <img className="trumpets" src={music} alt="trumpet"/>
                         </Link>
                     </div>

@@ -1,23 +1,23 @@
-//REACT 
+//React 
 import React from 'react';
 
-//Component 
+//Components
 import LogoPage from '../components/LogoPage';
 
-//CSS
-import '../pages/styles/Dev.css';
+//CSS 
+import '../pages/styles/Music.css'
 
-//Image
-import Hacker from '../images/anonymous.png';
-import Laptops from '../images/laptops.png';
+//Images 
+import Canguro from '../images/logo.png';
+import Trompeta from '../images/trompeta.png'
 
-class Dev extends React.Component{
+class Music extends React.Component{
     render(){
         return(
             <React.Fragment>
                 <LogoPage
-                image = {Hacker}
-                image2 = {Laptops}/>
+                image = {Canguro}
+                image2 = {Trompeta}/>
                 <section className="skills-section">
                     <div className="presentation-section">
                         <h1>Hola, soy Miguel Castillo. Mucho gusto </h1>
@@ -36,4 +36,4 @@ class Dev extends React.Component{
     }
 }
 
-export default Dev;
+export default Music;
