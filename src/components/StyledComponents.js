@@ -55,3 +55,45 @@ export const LinkMIK = styled(Link)`
         }
     }
 `; 
+
+export const SkillSection = styled.section`
+    position: relative;
+`;
+
+export const HabilityContainer = styled.div`
+    height: 350px;
+    width: 80%;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: 65px;
+    margin-left: auto; 
+    margin-right: auto; 
+`;
+
+export const FirstCard = styled.div`
+    position: absolute;
+    width: 98%;
+    height: 95%;
+    z-index: 100;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background-color: #012326;
+`;
+
+export const SecondCard = styled.div`
+    position: absolute;
+    width: 98%;
+    height: 95%;
+    border-radius: 20px;
+    bottom: 0;
+    right: 0;
+    background-color: #A66038;
+`;
+
+
+
